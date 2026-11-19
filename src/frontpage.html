@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Front page &mdash; Wednesday 18 November 2026</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1024px; height: 1024px;
+    background: #f6f1e6; color: #16130e;
+    font-family: 'Noto Serif', Georgia, serif;
+    padding: 11px 18px 9px;
+  }
+  .masthead { text-align: center; border-bottom: 4px solid #16130e; padding-bottom: 8px; }
+  .masthead .tagline {
+    font-family: 'Noto Sans', sans-serif; font-size: 11px; letter-spacing: 5px;
+    color: #6b6252; text-transform: uppercase;
+  }
+  .masthead h1 { font-size: 54px; line-height: 0.95; font-weight: 900; letter-spacing: 1px; margin: 2px 0 6px; }
+  .dateline {
+    display: flex; align-items: center; gap: 12px;
+    border-top: 1px solid #16130e; padding-top: 6px;
+  }
+  .dateline .date {
+    font-family: 'Noto Sans', sans-serif; font-size: 20px; font-weight: 800;
+    letter-spacing: 1.5px; white-space: nowrap;
+  }
+  .dateline .count {
+    font-family: 'Noto Sans', sans-serif; font-size: 11px; font-weight: 700;
+    letter-spacing: 1.5px; color: #6b6252; white-space: nowrap;
+  }
+  .dateline .stamp {
+    font-family: 'Noto Sans', sans-serif; font-size: 11px; font-weight: 800;
+    letter-spacing: 1px; color: #8b1a1a; border: 2px solid #8b1a1a; border-radius: 3px;
+    padding: 2px 7px; white-space: nowrap;
+  }
+  .dateline .sp { flex: 1; }
+  .lead { margin-top: 6px; padding-bottom: 6px; border-bottom: 2px solid #16130e; }
+  .lead .kicker {
+    font-family: 'Noto Sans', sans-serif; font-size: 11px; font-weight: 800;
+    letter-spacing: 2.5px; color: #8b1a1a; text-transform: uppercase;
+  }
+  .lead h2 { font-size: 26px; line-height: 1.02; font-weight: 900; margin: 3px 0 4px; }
+  .lead .deck { font-family: 'Noto Sans', sans-serif; font-size: 12px; line-height: 1.3; color: #2b261d; }
+  .lead .deck .src { font-size: 9px; letter-spacing: 1px; color: #6b6252; }
+  .timeline {
+    margin-top: 5px; padding: 5px 0 5px; border-bottom: 2px solid #16130e;
+  }
+  .timeline .tlabel {
+    display: block; font-family: 'Noto Sans', sans-serif; font-size: 10px; font-weight: 800;
+    letter-spacing: 1.5px; color: #8b1a1a; margin-bottom: 3px;
+  }
+  .timeline .slots { display: flex; gap: 10px; align-items: stretch; }
+  .timeline .slot { flex: 1; border-left: 1px solid #b9b09c; padding-left: 7px; }
+  .timeline .slot:first-of-type { border-left: none; padding-left: 0; }
+  .timeline .t {
+    display: block; font-family: 'Noto Sans', sans-serif; font-size: 11px;
+    font-weight: 800; color: #8b1a1a; margin-bottom: 2px;
+  }
+  .timeline .e { display: block; font-size: 9px; line-height: 1.25; }
+  .grid { display: flex; gap: 11px; margin-top: 6px; }
+  .col { flex: 1; min-width: 0; }
+  .col + .col { border-left: 1px solid #b9b09c; padding-left: 11px; }
+  .chead {
+    font-family: 'Noto Sans', sans-serif; font-size: 10px; font-weight: 800;
+    letter-spacing: 1px; color: #8b1a1a; text-transform: uppercase;
+    border-bottom: 2px solid #16130e; padding-bottom: 3px; margin-bottom: 2px;
+  }
+  .item { padding: 4px 0 3px; border-bottom: 1px solid #d8d0bf; font-size: 10px; line-height: 1.15; }
+  .item .num {
+    font-family: 'Noto Sans', sans-serif; font-size: 9px; font-weight: 800;
+    color: #8b1a1a; margin-right: 4px;
+  }
+  .item h4 { display: inline; font-size: 10.5px; line-height: 1.15; font-weight: 900; }
+  .item p { font-size: 9px; line-height: 1.25; color: #2b261d; margin-top: 1px; }
+  .item .src {
+    font-family: 'Noto Sans', sans-serif; font-size: 7px; font-weight: 700;
+    letter-spacing: 1px; color: #6b6252;
+  }
+  .item.numbers { background: #16130e; color: #f6f1e6; padding: 6px 7px; border-bottom: none; }
+  .item.numbers h4 { color: #f2c14e; }
+  .item.numbers p { color: #e8e2d2; }
+  .item.numbers .src { color: #b9b09c; }
+  .item.numbers .num { color: #f2c14e; }
+  .footer {
+    margin-top: 6px; border-top: 1px solid #16130e; padding-top: 5px;
+    text-align: center; font-family: 'Noto Sans', sans-serif;
+    font-size: 8.5px; letter-spacing: 1.5px; color: #6b6252; text-transform: uppercase;
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+  <header class="masthead">
+    <div class="tagline">The world &mdash; one day, one page</div>
+    <h1>THE DAILY GLOBE</h1>
+    <div class="dateline">
+      <span class="count">50 SOURCED STORIES</span>
+      <span class="sp"></span>
+      <span class="date">WEDNESDAY, 18 NOVEMBER 2026</span>
+      <span class="sp"></span>
+      <span class="stamp">&#10003; DATE CHECK: 18 NOV 2026</span>
+    </div>
+  </header>
+
+  <section class="lead">
+    <div class="kicker">01 &middot; IRAN · THE GULF — WAR SPREADS</div>
+    <h2>IRAN STRIKES KUWAIT AND BAHRAIN AFTER U.S. HITS QESHM ISLAND</h2>
+    <p class="deck">Tehran says it hit Ali Al Salem air base, home to U.S. forces, hours after American jets struck a missile site on Qeshm Island. Bahrain says it intercepted the drones; a tanker crew is missing in the Strait of Hormuz. <span class="src">WSJ / REUTERS</span></p>
+  </section>
+
+  <div class="timeline">
+    <span class="tlabel">THE DAY IN UTC</span>
+    <div class="slots"><div class="slot"><span class="t">~00:00</span><span class="e">Iran strikes Kuwait &amp; Bahrain</span></div><div class="slot"><span class="t">~04:00</span><span class="e">Kerch Bridge span falls</span></div><div class="slot"><span class="t">~08:00</span><span class="e">Dnipro: 141 drones, 126 downed</span></div><div class="slot"><span class="t">~10:00</span><span class="e">Xi &amp; Putin open Shenzhen talks</span></div><div class="slot"><span class="t">~14:00</span><span class="e">Quad meets in Manila</span></div><div class="slot"><span class="t">~20:00</span><span class="e">AP calls Alaska for Peltola</span></div></div>
+  </div>
+
+  <div class="grid">
+    <div class="col"><div class="chead">WAR &amp; THE WORLD</div><div class="item"><span class="num">02</span><h4>Kerch Bridge hit again</h4><p>Road span falls into the strait on day two of strikes.</p><span class="src">REUTERS</span></div><div class="item"><span class="num">03</span><h4>Houthis fire 5 drones at Saudi pipeline</h4><p>Drones aimed at two pumps on the East-West line.</p><span class="src">REUTERS</span></div><div class="item"><span class="num">04</span><h4>Saudi intercepts Houthi missile</h4><p>Kingdom says a missile aimed at Riyadh was destroyed.</p><span class="src">REUTERS</span></div><div class="item"><span class="num">05</span><h4>ADNOC vessel struck in Hormuz</h4><p>One crew missing, 11 hurt after a projectile hits tanker.</p><span class="src">REUTERS</span></div><div class="item"><span class="num">06</span><h4>Board of Peace faults both sides</h4><p>Trump board says Israel and Hamas broke Gaza pledges.</p><span class="src">REUTERS</span></div><div class="item"><span class="num">07</span><h4>Israel elects Kahana speaker</h4><p>Knesset backs PM-elect Eisenkot&#x27;s ally; Yashar wins.</p><span class="src">NYT</span></div><div class="item"><span class="num">08</span><h4>Putin &#x27;not ready&#x27; for peace talks</h4><p>Sources say the Kremlin will fight on through winter.</p><span class="src">NYT</span></div><div class="item"><span class="num">09</span><h4>Dnipro: 141 drones, 126 downed</h4><p>Six hurt as Russia&#x27;s overnight drone wave hits the city.</p><span class="src">UKRAINE AF</span></div><div class="item"><span class="num">10</span><h4>Russian jets off Taiwan, Japan</h4><p>Two jets fly off Taiwan; airspace breached off Fukuoka.</p><span class="src">AA</span></div><div class="item"><span class="num">11</span><h4>Ethiopia, Eritrea mass troops</h4><p>Armies build up on the shared border, within range.</p><span class="src">REUTERS</span></div></div><div class="col"><div class="chead">DIPLOMACY &amp; POLITICS</div><div class="item"><span class="num">12</span><h4>Xi and Putin meet in Shenzhen</h4><p>Leaders coordinate a day before the Trump trilateral.</p><span class="src">AFP / AP</span></div><div class="item"><span class="num">13</span><h4>Xi vows to fight protectionism</h4><p>China pledges open trade; Putin calls sanctions spent.</p><span class="src">REUTERS</span></div><div class="item"><span class="num">14</span><h4>Trump meets Marcos in Manila</h4><p>First Quad leaders&#x27; summit in two years opens at APEC.</p><span class="src">NYT</span></div><div class="item"><span class="num">15</span><h4>Trump hails Philippines deal</h4><p>U.S. announces trade and defence progress in Manila.</p><span class="src">AP</span></div><div class="item"><span class="num">16</span><h4>Xi greets Trump on tarmac</h4><p>Chinese leader breaks protocol to welcome Trump.</p><span class="src">AXIOS</span></div><div class="item"><span class="num">17</span><h4>Carney to meet Trump at APEC</h4><p>Canadian PM says a mutually beneficial deal is in reach.</p><span class="src">NYT</span></div><div class="item"><span class="num">18</span><h4>Lee presses Xi on Korea</h4><p>Seoul ties closer China links to peninsula stability.</p><span class="src">YONHAP</span></div><div class="item"><span class="num">19</span><h4>Myanmar to review ASEAN ties</h4><p>Min Aung Hlaing tells parliament the bloc was unfair.</p><span class="src">AP</span></div><div class="item"><span class="num">20</span><h4>Lammy urges EU rejoin pledge</h4><p>Ex-minister tells PM Burnham to take rejoin to voters.</p><span class="src">BBC</span></div><div class="item"><span class="num">21</span><h4>U.S. officer held in spy case</h4><p>Lt. Col. Tyner, held in London, is now in U.S. custody.</p><span class="src">BBC</span></div></div><div class="col"><div class="chead">AMERICA &amp; THE LAW</div><div class="item"><span class="num">22</span><h4>Peltola wins Alaska Senate</h4><p>Democrat beats Sullivan; party takes a 56-44 majority.</p><span class="src">AP</span></div><div class="item"><span class="num">23</span><h4>DHS: no ships for deportations</h4><p>Acting ICE chief says ships won&#x27;t be used to deport.</p><span class="src">NYT</span></div><div class="item"><span class="num">24</span><h4>New Jersey sues DHS</h4><p>State says ICE stonewalled its Delaney Hall probe.</p><span class="src">POLITICO</span></div><div class="item"><span class="num">25</span><h4>Garcia targets Trump Jr., Vance</h4><p>Oversight chair sends 12 letters to Trump allies.</p><span class="src">POLITICO</span></div><div class="item"><span class="num">26</span><h4>Kalshi halts &#x27;mention&#x27; markets</h4><p>Prediction site stops Trump-word wagers on CFTC order.</p><span class="src">REUTERS</span></div><div class="item"><span class="num">27</span><h4>Fed&#x27;s Cook to skip hearing</h4><p>Governor won&#x27;t attend Dec 14 hearing if Hassett stays.</p><span class="src">WSJ</span></div><div class="item"><span class="num">28</span><h4>White House drops FDA pick</h4><p>Heidi Overton&#x27;s nomination pulled for lack of support.</p><span class="src">AXIOS</span></div><div class="item"><span class="num">29</span><h4>Trump BBC deposition delayed</h4><p>Judge moves the defamation deposition to Jan 22, 2027.</p><span class="src">REUTERS</span></div><div class="item"><span class="num">30</span><h4>FAA halts router rollout</h4><p>Installs paused after a router was blamed for the stop.</p><span class="src">NYT</span></div><div class="item"><span class="num">31</span><h4>DHS chief defends jet to game</h4><p>Mullin says he paid for the government flight to a game.</p><span class="src">NYT</span></div></div><div class="col"><div class="chead">TECH &amp; MARKETS</div><div class="item"><span class="num">32</span><h4>Nvidia: $115.8B, up 103%</h4><p>Record quarter; data centre $107.6B. No Huang return.</p><span class="src">CNBC</span></div><div class="item"><span class="num">33</span><h4>Nvidia ends H200 China sales</h4><p>Licensed Hopper shipments stop; a $2.4B line is off.</p><span class="src">CNBC</span></div><div class="item"><span class="num">34</span><h4>OpenAI ships GPT-6.2 Astra, Sol</h4><p>Flagship 20% cheaper at $8/$40 per million tokens.</p><span class="src">OPENAI</span></div><div class="item"><span class="num">35</span><h4>Anthropic IPO book ~7x covered</h4><p>Final pricing due tonight as demand swamps the sale.</p><span class="src">BLOOMBERG</span></div><div class="item"><span class="num">36</span><h4>Critical Java flaw found by AI</h4><p>Startup Calif spots a bug hitting &#x27;all major companies&#x27;.</p><span class="src">NYT</span></div><div class="item"><span class="num">37</span><h4>Outages hit 365, FAA and NSA</h4><p>Rubio says &#x27;zero evidence&#x27; of a cyberattack behind them.</p><span class="src">BBC</span></div><div class="item"><span class="num">38</span><h4>Waymo pauses freeway robotaxis</h4><p>Driverless freeway runs halted amid safety concerns.</p><span class="src">AP</span></div><div class="item"><span class="num">39</span><h4>EU acts against Temu</h4><p>Brussels moves over illegal products on the marketplace.</p><span class="src">EU</span></div><div class="item"><span class="num">40</span><h4>NATO unveils comms strategy</h4><p>Alliance-wide plan for next-generation military networks.</p><span class="src">NATO</span></div><div class="item"><span class="num">41</span><h4>Omnilert sued over chip bag</h4><p>AI gun alert sent police; the &#x27;gun&#x27; was a bag of chips.</p><span class="src">NYT</span></div></div><div class="col"><div class="chead">HEALTH, SPORT &amp; CULTURE</div><div class="item"><span class="num">42</span><h4>Ebola in DRC tops 11,000 cases</h4><p>5,400 dead; two vaccines enter Phase 2 trials.</p><span class="src">UN</span></div><div class="item"><span class="num">43</span><h4>U.S. loses measles-free status</h4><p>26 years of elimination end; 5,400+ cases, 10 deaths.</p><span class="src">THE HILL</span></div><div class="item"><span class="num">44</span><h4>950,000 Gazans on flood ground</h4><p>WHO warns displaced families face winter floods.</p><span class="src">WHO</span></div><div class="item"><span class="num">45</span><h4>Cyclone Xavier, Cat 5, hits Cooks</h4><p>Monster storm strikes the Northern Cook Islands.</p><span class="src">AP</span></div><div class="item"><span class="num">46</span><h4>Russian military plane crashes</h4><p>19 dead in a crash in Siberia, officials confirm.</p><span class="src">AP</span></div><div class="item"><span class="num">47</span><h4>Bengals rout Steelers 38-18</h4><p>Sunday Night Football draws 21.519 million viewers.</p><span class="src">NBC SPORTS</span></div><div class="item"><span class="num">48</span><h4>Chargers beat Ravens 23-20</h4><p>Los Angeles finally wins; Baltimore loses a fifth in a row.</p><span class="src">NFL.COM</span></div><div class="item"><span class="num">49</span><h4>Hutchinson tears ACL in Munich</h4><p>Lions confirm their star rusher is out for the season.</p><span class="src">NFL.COM</span></div><div class="item"><span class="num">50</span><h4>CMA Awards: 60th edition tonight</h4><p>Swift returns after 13 years; Dolly tribute opens the show.</p><span class="src">ABC</span></div><div class="item numbers"><span class="num">$$</span><h4>BY THE NUMBERS</h4><p>$115.8B Nvidia revenue &middot; 56&ndash;44 Senate &middot; 11,000 Ebola cases &middot; 141 drones over Dnipro &middot; 21.5M SNF viewers</p><span class="src">THE DAY IN FIGURES</span></div></div>
+  </div>
+
+  <footer class="footer">Wednesday 18 November 2026 &mdash; 50 stories, all sourced &middot; timeline in UTC, times as reported through the day<br>
+  Sources: Reuters &middot; AP &middot; AFP &middot; NYT &middot; WSJ &middot; BBC &middot; Bloomberg &middot; CNBC &middot; Yonhap &middot; Euronews &middot; ABC &middot; Politico &middot; Axios &middot; The Hill &middot; NBC Sports &middot; NFL.com &middot; OpenAI &middot; UN &middot; WHO</footer>
+</body>
+</html>
